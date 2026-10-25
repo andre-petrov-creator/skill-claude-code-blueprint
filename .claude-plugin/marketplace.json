@@ -1,0 +1,13 @@
+{
+  "name": "skill-claude-code-blueprint",
+  "owner": {
+    "name": "andre-petrov-creator"
+  },
+  "plugins": [
+    {
+      "name": "claude-code-blueprint",
+      "source": "./",
+      "description": "Blueprint für neue Claude-Code-Projekte: Projektbeschreibung + Implementierungsplan."
+    }
+  ]
+}
