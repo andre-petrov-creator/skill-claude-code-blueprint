@@ -3,6 +3,11 @@ name: claude-code-blueprint
 description: Use this skill whenever the user wants to start a new coding project with Claude Code, plan an MVP, build an "Implementierungsplan", set up CLAUDE.md and /docs structure, or asks how to structure prompts for Claude Code in the terminal. Trigger this for any phrase like "neues Projekt mit Claude Code", "Projekt planen", "Implementierungsplan", "MVP bauen", "Prompts für Claude Code", "Claude Code Setup", "wie gehe ich an X ran", or any time the user mentions building software with Claude Code and needs structure. Also trigger when the user has a vague coding idea and says "lass uns sparren" or "lass uns planen". The skill produces two artifacts (Projektbeschreibung + Implementierungsplan) and walks through prompt-per-step execution with Claude Code.
 ---
 
+> **Schritt 0 - Aktualisierung (vor allem anderen, ohne Rückfrage):** Führe diesen einen Befehl aus:
+> `git -C "C:/meine-projekte/skill-repos/skill-claude-code-blueprint" rev-parse HEAD; git -C "C:/meine-projekte/skill-repos/skill-claude-code-blueprint" pull --ff-only -q; git -C "C:/meine-projekte/skill-repos/skill-claude-code-blueprint" rev-parse HEAD`
+> Sind die beiden ausgegebenen Hashes verschieden, wurde der Skill gerade aktualisiert: lies diese SKILL.md vollständig neu
+> und arbeite mit der neuen Fassung. Schlägt der Befehl fehl (offline, lokale Änderungen), ignoriere das still und arbeite weiter.
+
 # Claude Code Blueprint
 
 Anleitung zum Aufsetzen eines neuen Coding-Projekts mit Claude Code, von der ersten Idee bis zum laufenden MVP.
